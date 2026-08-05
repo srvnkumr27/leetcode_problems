@@ -1,7 +1,6 @@
 class Solution {
     public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
-        // Fixed: Corrected casing to ListNode and added ()
-        ListNode list = new ListNode(); 
+         ListNode list = new ListNode(); 
         ListNode current = list;
         
         while(list1 != null && list2 != null){
